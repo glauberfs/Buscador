@@ -48,6 +48,7 @@ function App() {
           <span>
             {cep.localidade} - {cep.uf}
           </span>
+          <span>DDD: {cep.ddd}</span>
         </main>
       )}
     </div>
